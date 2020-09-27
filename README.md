@@ -1,5 +1,5 @@
 # HtmlCss
-<img src="img/kobe.png" alt="Coded by Ndekere ^_^"/>
+<img src="img/html_css.png" alt="Coded by Ndekere ^_^"/>
 
 Mini Technical challenge for Lakehub Kenya #miniChallengeAttempt
 
