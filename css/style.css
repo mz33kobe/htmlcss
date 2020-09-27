@@ -1,11 +1,11 @@
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
   font-size: 35px;
   font-family: 'Dancing Script', cursive;
 }
+/* Resize img */
 
 img {
     width: 100%;
@@ -15,7 +15,7 @@ img {
   table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 1px;
+    margin:0;
 
   }
   th, td {
@@ -24,6 +24,7 @@ img {
   .kala1{
     background-color: #FFDEAD;
     padding: 15px;
+    
 
   }
   .kala2{
