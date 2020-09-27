@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--
+        Copyright 2020. Work by Kiritu Ndekere.
+        Find this Project on github: https://github.com/mz33kobe/htmlcss
+        Follow me on Github: https://github.com/mz33kobe/
+        #MadeInKenya
+        #MiniChallengeAttempt @lakeHubKenya
+       -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini Challenge attempt - by Ndekere.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Style the header */
+        .header {
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+        }
+        
+        /* Create three equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 10px;
+          height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+           
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+          .columnn {
+            width: 100%;
+          }
+        }
+        
+        </style>
 </head>
 <body>
-    
+<div class="header">
+  <h2>The News Times</h2>
+</div>
+  <!-- First section of table-->
+  <table style="width:100%">
+    <tr>
+      <td style="width: 33.33%;">
+        <h3><em>Student learns HTML</em></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Modi exercitationem assumenda, impedit odit fugit vel magni? 
+             Modi voluptate magnam est voluptatum illo.
+              Officiis illo excepturi minima natus voluptate molestiae ipsa?</p>
+      </td>
+      <td>
+        <h3><em>BREAKING: Puppies are adorable</em></h3>
+        <img src="img/puppy1.jpg" alt="Puppies are adorable ^_^"/>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Modi exercitationem assumenda, impedit odit fugit vel magni? </p>
+        <p>Modi voluptate magnam est voluptatum illo.
+           Officiis illo excepturi minima natus voluptate molestiae ipsa?</p>
+      </td>
+      <td>
+        <h3><em>CSS is apparently a thing</em></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Modi exercitationem assumenda, impedit odit fugit vel magni? 
+         Modi voluptate magnam est voluptatum illo.
+         Officiis illo excepturi minima natus voluptate molestiae ipsa?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Modi exercitationem assumenda, impedit odit fugit vel magni? 
+          Modi voluptate magnam est voluptatum illo.
+        Officiis illo excepturi minima natus voluptate molestiae ipsa?</p>
+        <br>
+        <br>
+      </td>
+    </tr>
+  </table><!-- First section of table ends-->
+  <!-- Second section of table-->
+  <table style="width:100%">
+    <tr>
+      <td style="width: 33.33%;">      
+        <h3><em>Boy Likes Turtles</em></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Dolores non cum placeat tempora quasi atque explicabo rerum est nisi deserunt?
+          Totam voluptates dolorum qui aperiam itaque libero,
+          natus laudantium nam?</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Modi exercitationem assumenda, impedit odit fugit vel magni? 
+          Modi voluptate magnam est voluptatum illo.
+          Officiis illo excepturi minima natus voluptate molestiae ipsa?
+       </p>
+      </td>
+      <td style="width: 66.66%">
+        <h3><em>BREAKING: Puppies are adorable</em></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Modi exercitationem assumenda, impedit odit fugit vel magni? 
+             Modi voluptate magnam est voluptatum illo.
+              Officiis illo excepturi minima natus voluptate molestiae ipsa?</p>
+      </td>
+    </tr>
+  </table><!-- Second section of table ends-->
 </body>
 </html>
